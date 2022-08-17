@@ -1,22 +1,23 @@
 {
-  "name": "benwilkins/laravel-fcm-notification",
+  "name": "blackends/laravel-fcm-notification",
   "description": "Laravel FCM (Firebase Cloud Messaging) Notification Channel",
+  "keywords": ["laravel","fcm","firebase","notifications"],
+  "homepage": "https://github.com/Zubair-Iftikhar/laravel-fcm-notification",
   "license": "MIT",
-  "keywords": [
-    "laravel",
-    "fcm",
-    "firebase",
-    "notifications"
-  ],
   "authors": [
     {
-      "name": "Ben Wilkins",
-      "email": "bentwilkins@gmail.com"
+      "name": "BlackEnds",
+      "email": "blackends@gmail.com"
+    },
+    {
+      "name": "Zubair Iftikhar",
+      "email": "zu0072010@gmail.com",
+      "homepage": "https://blackends.com"
     }
   ],
   "require": {
-    "php": ">=5.6.4",
-    "guzzlehttp/guzzle": "^6.2|^7.0",
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.2.0",
     "illuminate/notifications": "~5.3|^6.0|^7.0|^8.0|^9.0",
     "illuminate/queue": "~5.3|^6.0|^7.0|^8.0|^9.0",
     "illuminate/support": "~5.3|^6.0|^7.0|^8.0|^9.0",
@@ -24,7 +25,7 @@
   },
   "require-dev": {
     "mockery/mockery": "~1.0",
-    "phpunit/phpunit": "~6.0"
+    "phpunit/phpunit": "^9.0"
   },
   "autoload": {
     "psr-4": {
